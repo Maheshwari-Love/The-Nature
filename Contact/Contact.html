@@ -1,51 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Contact.css">
-    <link rel="stylesheet" href="../Home/Home.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Contact.css" />
+    <link rel="stylesheet" href="../Home/Home.css" />
     <title>Contact | The Nature</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <nav>
-          <div class="logo">
-            <h1>
-              <a href="../Home/Home.html" class="logo-link"
-                >My<span class="lg-span">Nature</span></a
-              >
-            </h1>
-          </div>
-          <div class="links">
-            <ul>
-                <li><a href="../Home/Home.html">Home</a></li>
-                <li><a href="../About/About.html">About</a></li>
-                <li><a href="../Contact/Contact.html">Contact</a></li>
-            </ul>
-          </div>
-          <div class="btns">
-            <button class="login">Login</button>
-            <button class="register">Register</button>
-          </div>
-        </nav>
-        <div class="contactForm">
-          <h1>Contact Us</h1>
-          <form action="submit_form.php" method="post">
-            <label for="name">Your Name:</label>
-            <input type="text" id="name" name="name" required />
-  
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required />
-  
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-  
-            <!-- You can add more fields as needed, like a subject or phone number -->
-  
-            <input type="submit" value="Submit" />
-          </form>
+      <nav>
+        <div class="logo">
+          <h1>
+            <a href="../Home/Home.html" class="logo-link"
+              >My<span class="lg-span">Nature</span></a
+            >
+          </h1>
         </div>
+        <div class="links">
+          <ul>
+            <li><a href="../Home/Home.html">Home</a></li>
+            <li><a href="../About/About.html">About</a></li>
+            <li><a href="../Contact/Contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="btns">
+          <button class="login">Login</button>
+          <button class="register">Register</button>
+        </div>
+      </nav>
+      <div class="contactForm">
+        <h1>Contact Us</h1>
+        <form action="submit_form.php" method="post">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <!-- You can add more fields as needed, like a subject or phone number -->
+
+          <input type="submit" value="Submit" />
+        </form>
       </div>
-</body>
+    </div>
+    <script src="../index.js"></script>
+  </body>
 </html>

@@ -1,5 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .loginContainer{
-    color: aqua;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    color: rgb(0, 0, 0);
     font-weight: bold;
-    
+    font-size: 34px; 
 }

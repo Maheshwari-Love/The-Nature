@@ -11,7 +11,9 @@ body {
     background-size: cover;
     height: 80vh;
 }
-
+a{
+    text-decoration: none;
+}
 .logo-link {
     text-decoration: none;
     color: black;
